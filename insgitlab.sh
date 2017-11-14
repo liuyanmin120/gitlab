@@ -4,6 +4,7 @@ mkdir config
 mkdir logs
 mkdir data
 sudo docker stop gitlab
+sudo docker rm 	/gitlab
 # -d 后台
 sudo docker run -d \
 --hostname gitlabhostname \
